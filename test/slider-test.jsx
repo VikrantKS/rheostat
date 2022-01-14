@@ -77,6 +77,7 @@ describeWithDOM('<Slider />', () => {
       assert.isTrue(pitRender.calledOnce, 'one pit was rendered vertically');
     });
 
+
     it('doesn\'t re-renders pits when value are changed', () => {
       const pitRender = sinon.stub().returns(<div />);
       const PitComponent = createReactClass({
