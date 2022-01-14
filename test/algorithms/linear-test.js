@@ -11,6 +11,14 @@ describe('linear algorithm', () => {
     const positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(value, geometric.getValue(positionFromValue, min, max));
   });
+  it('Version - 3 : of Inverse Function check v2', () => {
+    const min = 10;
+    const max = 1000;
+    const value = 358;
+    const positionFromValue = geometric.getPosition(value, min, max);
+    assert.equal(value, geometric.getValue(positionFromValue, min, max));
+  });
+  
   it('Shifted - Middle Range Check', () => {
     const min = 0;
     const max = 1024;
