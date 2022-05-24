@@ -17,5 +17,4 @@ preRun:
 postRun:
   command:
     - node --version
-    - node --version
-version: 1.2
+version: 1.2.1
