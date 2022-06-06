@@ -8,8 +8,7 @@ postMerge:
 preMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
-stability:
-  consecutive_runs: 5
+
 preRun:
   command:
     - npm i
@@ -18,3 +17,4 @@ postRun:
   command:
     - node --version
 version: 1.2.1
+
